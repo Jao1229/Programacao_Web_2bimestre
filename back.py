@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 
-app = FastAPI(title="API Cuidadores de Plantas")
+app = FastAPI(title="Cuidadores de Plantas")
 
 app.add_middleware(
     CORSMiddleware,
