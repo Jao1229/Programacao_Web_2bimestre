@@ -157,7 +157,7 @@ CREATE TABLE configuracoes_sistema (
     descricao TEXT
 );
 
--- POPULANDO O BANCO DE DADOS COM INFORMAÇÕES FICTÍCIAS
+-- POPULANDO O BANCO DE DADOS
 
 -- 1. Categorias de Plantas
 INSERT INTO categorias_plantas (nome, descricao, frequencia_rega_sugerida) VALUES 
